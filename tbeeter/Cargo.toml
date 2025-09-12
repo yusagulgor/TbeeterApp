@@ -1,0 +1,11 @@
+[package]
+name = "tbeeter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wet_tweet_gpu ={ path = "../wet_tweet_gpu"}
+mongodb = "3.2.5"
+tokio = { version = "1", features = ["full"] }
+bcrypt = "0.17.1"
+futures-util = "0.3.31"
